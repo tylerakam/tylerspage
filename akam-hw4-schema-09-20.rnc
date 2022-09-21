@@ -1,0 +1,21 @@
+start = root
+
+root = element root {title, l+, end}
+title = element title {poem, l+, auth}
+poem = element poem {l+}
+l = element l {text+,(und | aside)*, text?}
+aside = attribute aside{"con" | "rev" | "og" | text}
+und = element und {text}
+
+auth = element auth {l*}
+end = element end {ind+}
+
+ind = element ind {info?, place?, location?, date?, l?, (text | empty)*}
+info = element info {text}
+place = element place {text}
+location = element location {text}
+date = element date {text, when}
+when =attribute when {xsd:date}
+
+#I realize that I would typically not have an author element empty because I would not normally put author under a "line" element
+

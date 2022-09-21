@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="akam-relaxng2-09-20/akam-hw4-schema-09-20.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <!--I have used <l aside="og"> to determine information that is not transferable text, and references visuals on the original document. 
+        Similarly, <l aside="con"> provides context not shown in the original document, but relates to the material. The designation <l aside="rev"> is a revision from an earlier version.-->
+    <title>
+        <poem>
+            <l>
+                <und>BALLAD OF BOOKER T.</und>
+            </l>
+        </poem>
+        <l>by</l>
+        <auth>
+            <l>Langston Hughes</l>
+        </auth>
+    </title>
+
+    <l>Booker T.</l>
+    <l aside="con">(Booker T. Washington was born a slave in Virginia in 1856. He was the founder of
+        the Tuskegee Institute in Alabama in 1881).</l>
+    <l>Was a practical man.</l>
+    <l>He said, Till the soil</l>
+    <l>And learn from the land.</l>
+    <l aside="rev">In a first draft from May 30th, 1941, there is a handwritten addition of the word "and"</l>
+    <l>Let down your bucket</l>
+    <l>Where you are.</l>
+    <l>Your fate is here</l>
+    <l>And not afar.</l>
+    <l>To help yourself</l>
+    <l aside="og">(in the original document, there is the official seal of the library of congress
+        stamped onto the lines above.)</l>
+    <l>And your fellow man,</l>
+    <l>Train your head,</l>
+    <l aside="con">(Booker T. advocated for African Americans to become educated so that they may
+        become self supporting and accumulate wealth)</l>
+    <l>Your heart, <und>and your hand.</und></l>
+    <l>For smartness alone's</l>
+    <l>Surely not meet—</l>
+    <l>If you haven't at the same time</l>
+    <l>Got something to eat.</l>
+    <l>Thus at Tuskegee</l>
+    <l>He built a school</l>
+    <l aside="con">(The previous line references how Booker T. founded the Tuskegee Institute in
+        Alabama in 1881. It became the biggest school for African Americans in the South.)</l>
+    <l>With book-learning there</l>
+    <l>And the workman's tool.</l>
+    <l>He started out</l>
+    <l>In a simple way—</l>
+    <l>For yesterday</l>
+    <l>Was <und>not</und> today.</l>
+    <l>Sometimes he had</l>
+    <l>Compromise in his talk—</l>
+    <l>For a man must crawl</l>
+    <l>Before he can walk—</l>
+    <l>And in Alabama in '85</l>
+    <l>A joker was lucky</l>
+    <l>To be alive.</l>
+    <l>But Booker T.</l>
+    <l>Was nobody's fool:</l>
+    <l>You may carve a dream</l>
+    <l>With an humble tool.</l>
+    <!--Why is it "With an humble tool" and not "with a humble tool?"-->
+    <l>The tallest tower</l>
+    <l>Can tumble down</l>
+    <l>If it be not rooted</l>
+    <l>In solid ground.</l>
+    <l>So, being a far-seeing</l>
+    <l>Education and Outreach Division</l>
+    <l>Practical man,</l>
+    <l>He said, Train your head,</l>
+    <l>Your heart, <und>and your hand.</und></l>
+    <l>Your fate is here</l>
+    <l>And not afar,</l>
+    <l>So let down your bucket</l>
+    <l>Where you are.</l>
+    <l aside="con">(The two previous lines, repeated from earlier in the poem, are pulled from
+        Washington's speech in Atlanta, Georgia in 1895)</l>
+    <end>
+        <ind>LANGSTON HUGHES</ind>
+        <ind>
+            <info>Final Draft,</info>
+        </ind>
+        <ind>
+            <place>Hollow Hills Farm,</place>
+        </ind>
+        <ind><location>Monterey, California</location>,</ind>
+        <ind>
+            <date when="1941-06-01">June 1, 1941.</date>
+            <l aside="og">(In the original document, Langston Hughes' signature overlaps this
+                information)</l>
+        </ind>
+    </end>
+</root>
